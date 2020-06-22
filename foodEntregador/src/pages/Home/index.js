@@ -14,7 +14,7 @@ import ImageMarker from '../../assets/marker/marker2.png'
 import { Notifications } from 'expo';
 
 const API_URL = 'http://3.23.146.65:3333' 
-const GOOGLE_API_KEY = 'AIzaSyDAzRICgcpPvr4neHSZMNhYZ_a_CfUx1DQ'
+const GOOGLE_API_KEY = 'chave de acesso'
 
 
 const Home = () => {

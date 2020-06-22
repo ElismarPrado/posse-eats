@@ -1,0 +1,331 @@
+.operation-container {
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    min-height: 92vh;
+}
+
+.operation-header {
+    display: flex;
+    background-color: #555;
+    width: 100%;
+    height: 8vh;
+    align-items:  flex-end;
+    justify-content: flex-end;
+}
+
+.operation-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 33.3%;
+    min-height: 92vh;
+    border-right: 1px solid #c1c1c1;
+}
+
+.operation-label {
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(43, 160, 43, 0.322);
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.0)
+}
+
+.operation-label:hover {
+    border: 1px solid #999
+}
+
+.operation-color2 {
+    background-color: rgba(231, 201, 31, 0.322);
+}
+
+.operation-color3 {
+    background-color: rgba(95,158,160, 0.322);
+}
+
+.operation-label-product {
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    background-color: rgba(100, 100, 100, 0.2);
+}
+
+#label-switch {
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+    align-items: center;
+    left: 50px;
+    top: 10px;
+    position: absolute;
+}
+
+
+
+
+
+
+.operation-section-detail {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(42, 42, 42, 0.7);
+}
+
+.operation-title-detail {
+    font-size: 18px;
+    font-weight: bold;
+    color: #424242;
+}
+
+.operation-label-detail {
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #fff;
+    border: 3px solid #555;
+    border-radius: 10px;
+}
+
+.operation-label-client-detail  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+}
+
+#close {
+    cursor: pointer;
+}
+
+.operation-label-product2-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.operation-label-product3-detail {
+    min-width: 70%;
+    max-width: 70%;
+}
+
+.operation-texto-detail {
+    font-size: 13px;
+    margin: 0;
+    color: #424242;
+}
+
+.operation-texto-quantidade-detail, .operation-texto-nome-detail, .operation-texto-valor-detail {
+    font-size: 12px;
+    margin: 0;
+    color: #555;
+}
+
+.operation-texto-quantidade-detail {
+    font-size: 22px;
+}
+
+.operation-texto-nome-detail {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.operation-texto-descricao-detail {
+    margin: 0;
+    font-size: 10px;
+    color: #555;
+}
+
+.operation-texto-descricao2-detail {
+    margin: 0;
+    font-size: 10px;
+    color: crimson;
+}
+
+.operation-total-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.operation-texto-total-detail {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.operation-texto-total-span-detail {
+    font-weight: lighter;
+}
+
+.operation-texto-tipoPag1-detail {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: greenyellow;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.operation-texto-tipoPag-detail {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ADD8E6;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.operation-status-detail {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operation-texto-status-detail {
+    margin: 0;
+    padding-right: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.operation-texto-hour-detail {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.operation-label-button-detail {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #999;
+}
+
+
+.operation-button-detail {
+    width: 100%;
+    margin-right: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #72B76B;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    font-family: Ubuntu;
+}
+
+.operation-button-detail2 {
+    width: 100%;
+    margin-right: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #DC143C;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    font-family: Ubuntu;
+}
+
+.operation-button-detail3 {
+    width: 100%;
+    margin-right: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #79a7b6;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    font-family: Ubuntu;
+}
+
+#numero-pedido {
+    font-size: 18px;
+}
+
+#quantidade-produto {
+    margin-right: 3px;
+    font-size: 10px;
+    color: #424242;
+}
+
+#nome-produto {
+    font-size: 10px;
+    color: #424242;
+}
+
+#mais-produto {
+    margin-top: -8px;
+    width: 100%;
+    text-align: end;
+    font-size: 20px;
+}
+
+.operation-label-button-detail2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.operation-texto-status {
+    width: 80%;
+    color: #f5f5f5;
+    font-family: Ubuntu;
+}
+
+.operation-texto-status-entrega {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #424242;
+    background-color: rgba(255,215,0,0.5);
+}
+
+.operation-header-txt {
+    color: #e1e1e1;
+    font-weight: bold;
+}
+
+@media(max-width: 700px) {
+}

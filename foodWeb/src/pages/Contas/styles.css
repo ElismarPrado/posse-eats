@@ -1,0 +1,173 @@
+.contas-container {
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    min-height: 92vh;
+}
+
+.contas-header {
+    display: flex;
+    background-color: #555;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    padding-left: 50px;
+}
+
+
+.contas-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.contas-label {
+    display: flex;
+    margin: 10px;
+    max-width: 160px;
+    height: 220px;
+    background-color: rgba(43, 160, 43, 0.322);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.contas-label-recebidas {
+    display: flex;
+    margin: 10px;
+    max-width: 160px;
+    height: 220px;
+    background-color: rgba(231, 201, 31, 0.322);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.contas-buttun {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #424242;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contas-buttun-selected {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #424242;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #34CB79;
+    font-weight: bold;
+    border: 2px solid #34CB79;
+    outline:none
+}
+
+.contas-buttun:hover{
+    background-color: #555;
+    color: #34CB79;
+}
+
+.contas-button {
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #72B76B ;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.contas-label2 {
+    width: 100%;
+}
+
+.contas-labelData {
+    display: flex;
+    flex-direction: row;
+}
+
+.contas-id {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    padding-bottom: 5px;
+}
+
+.contas-hora {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #666;
+    font-size: 12px;
+}
+
+.contas-labelProduto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 1px #999;
+    border-radius: 5px;
+}
+
+.contas-labelProduto2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contas-produto {
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+}
+.contas-quantidade {
+    padding-right: 5px;
+    margin: 0;
+    font-size: 12px;
+}
+.contas-nome {
+    padding-right: 5px;
+    margin: 0;
+    font-size: 12px;
+}
+.contas-valor {
+    margin: 0;
+    font-size: 12px;
+}
+.contas-total {
+    margin: 0;
+    font-size: 12px;
+    background-color: rgba(231, 201, 31, 0.3);
+    padding-left: 3;
+    padding-right: 3;
+}
+
+.contas-more {
+    text-align: end;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.contas-button-ivisivel {
+    height: 20px;
+}
+
+@media(max-width: 700px) {
+}

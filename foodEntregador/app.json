@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Posse Eats Entregador",
+    "slug": "PosseEatsEntregador",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#72B76B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.insite.posseeatsentregador"
+    },
+    "android": {
+      "package": "com.insite.posseeatsentregador",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDAzRICgcpPvr4neHSZMNhYZ_a_CfUx1DQ"
+        }
+      }
+    }
+  }
+}

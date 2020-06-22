@@ -1,0 +1,29 @@
+.home-container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e1e1;
+}
+
+.dashboard-container {
+    display: flex;
+    width: 95%;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dashboard-section {
+    display: flex;
+    width: 50%;
+    height: 49vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #e1e1e1;
+    background-color: #f5f5f5;
+}
+

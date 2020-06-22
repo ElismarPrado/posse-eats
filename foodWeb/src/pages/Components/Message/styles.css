@@ -1,0 +1,29 @@
+.message-label {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10vh;
+    right: 20px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+
+.message-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #424242;
+}
+
+.message-color1 {
+    background-color: #72B76B;
+}
+.message-color2 {
+    background-color: rgb(231, 201, 31);
+}

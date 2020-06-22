@@ -1,0 +1,26 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prod": "node src/server.js",
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.654.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  }
+}

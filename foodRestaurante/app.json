@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Posse Eats Restaurante",
+    "slug": "PosseEatsRestaurante",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#72B76B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.insite.posseeatsrestaurante"
+    },
+    "android": {
+      "package": "com.insite.posseeatsrestaurante",
+      "versionCode": 1
+    }
+  }
+}

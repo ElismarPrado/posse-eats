@@ -2,6 +2,9 @@
 Sistema de delivery Posse Eats, são 3 aplicativos mobile(Android, IOS) sendo um para o cliente, outro para o restaurante e outro para o entregador, também foi contruído um sistema web para o restaurante, todos interconectados por uma api rest.
 Foi utilizado React.js para o sistema WEB, React Native para o mobile e node para a api rest.
 
+Veja na play store:
+App Cliente: https://play.google.com/store/apps/details?id=com.insite.posseeatscliente&hl=pt_BR
+
 ## Aplicativo do Cliente
 ![foto do aplicativo](https://github.com/ElismarPrado/posse-eats/blob/master/Git-fotos/deploy%20posse%20eats/1.jpg)
 ![foto do aplicativo](https://github.com/ElismarPrado/posse-eats/blob/master/Git-fotos/deploy%20posse%20eats/2.jpg)

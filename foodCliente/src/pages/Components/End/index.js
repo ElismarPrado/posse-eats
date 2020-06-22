@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 import * as Location from 'expo-location'
 import Geocoder from 'react-native-geocoding';
 
-const GOOGLE_API_KEY = 'AIzaSyDAzRICgcpPvr4neHSZMNhYZ_a_CfUx1DQ'
+const GOOGLE_API_KEY = 'chave de acesso'
 
 export default function End({all, refresh}) {
 
